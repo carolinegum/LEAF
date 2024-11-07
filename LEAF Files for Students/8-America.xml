@@ -12,12 +12,90 @@
 					otherwise noted.</p>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/carolinegum/LEAF/main/LEAF%20Files%20for%20Students/8-America.xml?date_annotation_20241107150220499",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-07T20:02:20.499Z",
+	"dcterms:modified": "2024-11-07T20:02:20.499Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/carolinegum",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Caroline Gum"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/carolinegum/LEAF/main/LEAF%20Files%20for%20Students/8-America.xml?date_annotation_20241107150220499#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/carolinegum/LEAF/main/LEAF%20Files%20for%20Students/8-America.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/carolinegum/LEAF/main/LEAF%20Files%20for%20Students/8-America.xml?date_annotation_20241107150220499#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1492"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<pb facs="https://raw.githubusercontent.com/kmabennett/LEAF/refs/heads/main/8-America-Ort-1.jpg"/>
 			<div>
-				<head>AMERICA.</head><p>This fowrth parte of the world for the exceeding largeneſſe thereof is called the new-world altegether vnknowne vnto all coſmographersvntil the years of our Lord 1492, in which it was diſcouered by CbriftepberColumba of Genna, who for that diſcouery was employed by Ferdinand King ofCaſtille &amp; Queene Iſabel his wyf. Itſeemeth molte ſtrange that ſo great a parteof the world ſhould ſo long remaiue vnknowne, confidering the diligentſearch of Geographers to deſcribe the whole earthe, the oportunitie to ſearch outcountries, &amp; the inſatiable deſyre that man hath of of gold &amp; ſiluer, wherewith this America aboundeth, &amp; yet cold neuer before bee found out. Some think it was decyphered byPlato vnder the name of Atlas, others affirme a pece of coyneto bee found there having on it the image of Auguſtus the Emperor, about thewhich there are diuers opinions and diſputes. This parte of the world hath bene all failed about except on the north ſyde,which coaſt yer vndiſcouered. It ſeemeth to forme it ſelfinto two peninſulaes, wherof the one which is vndifcouered. It ſeemed to forme it ſelf into two peninſulaes, whereof the one which is northerly conteyneth new Spaine, the province of Mexico, the landes of Florida, &amp; Terra noua, etc. That which is ſouthward called Terra firmaconteyneth the regions of Peru, Breſilia, and others.America had not in tymes paſt either wheat or wyne, kyne, ſhepe, gotes, aſſes, or dogges, but it hathſince the diſcouery thereof bene enriched from Europe with all theſe and ſundry other comodities.</p></div>
+				<head>AMERICA.</head><p>This fowrth parte of the world for the exceeding largeneſſe thereof is called the new-world altegether vnknowne vnto all coſmographersvntil the years of our Lord <date when="1492">1492</date>, in which it was diſcouered by CbriftepberColumba of Genna, who for that diſcouery was employed by Ferdinand King ofCaſtille &amp; Queene Iſabel his wyf. Itſeemeth molte ſtrange that ſo great a parteof the world ſhould ſo long remaiue vnknowne, confidering the diligentſearch of Geographers to deſcribe the whole earthe, the oportunitie to ſearch outcountries, &amp; the inſatiable deſyre that man hath of of gold &amp; ſiluer, wherewith this America aboundeth, &amp; yet cold neuer before bee found out. Some think it was decyphered byPlato vnder the name of Atlas, others affirme a pece of coyneto bee found there having on it the image of Auguſtus the Emperor, about thewhich there are diuers opinions and diſputes. This parte of the world hath bene all failed about except on the north ſyde,which coaſt yer vndiſcouered. It ſeemeth to forme it ſelfinto two peninſulaes, wherof the one which is vndifcouered. It ſeemed to forme it ſelf into two peninſulaes, whereof the one which is northerly conteyneth new Spaine, the province of Mexico, the landes of Florida, &amp; Terra noua, etc. That which is ſouthward called Terra firmaconteyneth the regions of Peru, Breſilia, and others.America had not in tymes paſt either wheat or wyne, kyne, ſhepe, gotes, aſſes, or dogges, but it hathſince the diſcouery thereof bene enriched from Europe with all theſe and ſundry other comodities.</p></div>
 		</body>
 	</text>
 </TEI>
