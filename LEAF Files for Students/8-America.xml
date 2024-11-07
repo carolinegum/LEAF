@@ -47,7 +47,7 @@
 	"id": "https://raw.githubusercontent.com/carolinegum/LEAF/main/LEAF%20Files%20for%20Students/8-America.xml?date_annotation_20241107150220499",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-11-07T20:02:20.499Z",
-	"dcterms:modified": "2024-11-07T20:02:20.499Z",
+	"dcterms:modified": "2024-11-07T20:29:42.059Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/carolinegum",
 		"@type": [
@@ -125,7 +125,7 @@
 	"id": "https://raw.githubusercontent.com/carolinegum/LEAF/main/LEAF%20Files%20for%20Students/8-America.xml?place_annotation_20241107150430013",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-11-07T20:04:30.013Z",
-	"dcterms:modified": "2024-11-07T20:04:30.013Z",
+	"dcterms:modified": "2024-11-07T20:29:16.436Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/carolinegum",
 		"@type": [
@@ -362,7 +362,7 @@
 	"id": "https://raw.githubusercontent.com/carolinegum/LEAF/main/LEAF%20Files%20for%20Students/8-America.xml?place_annotation_20241107151850715",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-11-07T20:18:50.715Z",
-	"dcterms:modified": "2024-11-07T20:18:50.715Z",
+	"dcterms:modified": "2024-11-07T20:29:31.157Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/carolinegum",
 		"@type": [
@@ -403,7 +403,9 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.6.0"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:medium",
+	"cwrc:hasPrecision": "cwrc:mediumCertainty"
 }]]>
         </rdf:Description>
       
@@ -490,7 +492,7 @@
 		<body>
 			<pb facs="https://raw.githubusercontent.com/kmabennett/LEAF/refs/heads/main/8-America-Ort-1.jpg"/>
 			<div>
-				<head><placeName key="America" ref="http://vocab.getty.edu/tgn/9143331">AMERICA.</placeName></head><p>This fowrth parte of the world for the exceeding largeneſſe thereof is called the new-world altegether vnknowne vnto all coſmographers vntil the years of our Lord <date when="1492">1492</date>, in which it was diſcouered by <persName key="Christopher Columbus" ref="http://www.wikidata.org/entity/Q7322" cert="high" type="real">Cbriftepber Columba</persName> of <placeName key="Genoa" ref="http://www.wikidata.org/entity/Q1449">Genna</placeName>, who for that diſcouery was employed by <persName key="Ferdinand II of Aragon" ref="http://www.wikidata.org/entity/Q12860">Ferdinand</persName> King of <placeName cert="medium" key="Crown of Castile" ref="http://www.wikidata.org/entity/Q217196">Caſtille</placeName> &amp; Queene Iſabel his wyf. Itſeemeth molte ſtrange that ſo great a parte of the world ſhould ſo long remaiue vnknowne, confidering the diligent ſearch of Geographers to deſcribe the whole earthe, the oportunitie to ſearch outcountries, &amp; the inſatiable deſyre that man hath of of gold &amp; ſiluer, wherewith this America aboundeth, &amp; yet cold neuer before bee found out. Some think it was decyphered byPlato vnder the name of Atlas, others affirme a pece of coyneto bee found there having on it the image of Auguſtus the Emperor, about thewhich there are diuers opinions and diſputes. This parte of the world hath bene all failed about except on the north ſyde, which coaſt yer vndiſcouered. It ſeemeth to forme it ſelfinto two peninſulaes, wherof the one which is vndifcouered. It ſeemed to forme it ſelf into two peninſulaes, whereof the one which is northerly conteyneth new Spaine, the province of Mexico, the landes of Florida, &amp; Terra noua, etc. That which is ſouthward called Terra firmaconteyneth the regions of Peru, Breſilia, and others.America had not in tymes paſt either wheat or wyne, kyne, ſhepe, gotes, aſſes, or dogges, but it hathſince the diſcouery thereof bene enriched from Europe with all theſe and ſundry other comodities.</p></div>
+				<head><placeName key="America" ref="http://vocab.getty.edu/tgn/9143331">AMERICA.</placeName></head><p>This fowrth parte of the world for the exceeding largeneſſe thereof is called the new-world altegether vnknowne vnto all coſmographers vntil the years of our Lord <date when="1492" cert="high">1492</date>, in which it was diſcouered by <persName key="Christopher Columbus" ref="http://www.wikidata.org/entity/Q7322" cert="high" type="real">Cbriftepber Columba</persName> of <placeName key="Genoa" ref="http://www.wikidata.org/entity/Q1449" cert="medium">Genna<precision match="@ref" precision="medium"/></placeName>, who for that diſcouery was employed by <persName key="Ferdinand II of Aragon" ref="http://www.wikidata.org/entity/Q12860">Ferdinand</persName> King of <placeName cert="medium" key="Crown of Castile" ref="http://www.wikidata.org/entity/Q217196">Caſtille</placeName> &amp; Queene Iſabel his wyf. Itſeemeth molte ſtrange that ſo great a parte of the world ſhould ſo long remaiue vnknowne, confidering the diligent ſearch of Geographers to deſcribe the whole earthe, the oportunitie to ſearch outcountries, &amp; the inſatiable deſyre that man hath of of gold &amp; ſiluer, wherewith this America aboundeth, &amp; yet cold neuer before bee found out. Some think it was decyphered byPlato vnder the name of Atlas, others affirme a pece of coyneto bee found there having on it the image of Auguſtus the Emperor, about thewhich there are diuers opinions and diſputes. This parte of the world hath bene all failed about except on the north ſyde, which coaſt yer vndiſcouered. It ſeemeth to forme it ſelfinto two peninſulaes, wherof the one which is vndifcouered. It ſeemed to forme it ſelf into two peninſulaes, whereof the one which is northerly conteyneth new Spaine, the province of Mexico, the landes of Florida, &amp; Terra noua, etc. That which is ſouthward called Terra firmaconteyneth the regions of Peru, Breſilia, and others.America had not in tymes paſt either wheat or wyne, kyne, ſhepe, gotes, aſſes, or dogges, but it hathſince the diſcouery thereof bene enriched from Europe with all theſe and ſundry other comodities.</p></div>
 		</body>
 	</text>
 </TEI>
